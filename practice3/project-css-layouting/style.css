@@ -1,0 +1,91 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/*-- Nav & Header --*/
+
+#logo{
+  float:left;
+}
+
+header{
+    background-color: white;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    padding-bottom: 8px;
+    padding-top: 3px;
+}
+
+nav{
+  float: right;
+  margin-top: 15px;
+}
+nav li{
+  display: inline-block;
+  margin-right: 30px;
+  color: #5da8c1;
+}
+
+/*-- Body --*/
+body{
+  background-image: url("./img/sample-pattern.png");
+}
+
+section{
+    position: relative;
+    top: 80px;
+}
+
+section h1{
+  text-align: center;
+  font-size: 40px;
+  color:#555e8c;
+}
+
+#article-list{
+  display:inline-block;
+  background-color: white;
+  margin: 0 250px;
+  min-height: 200px;
+  min-width: 300px;
+  position: relative;
+  bottom: 10px;
+  top: 15px;
+}
+
+article h3{
+  color: #5da8c1;
+  margin: auto 30px ;
+  margin-top: 25px;
+}
+
+article{
+  border-bottom: solid #949696 1px;
+}
+
+article a{
+  text-decoration: none;
+}
+
+article p{
+  padding: 20px;
+  margin-left: 10px;
+}
+
+/*-- footer --*/
+footer{
+  position: relative;
+  bottom: 0px;
+  background-color: black;
+  color:white;
+  width: 100%;
+  min-height: 50px;
+  top: 150px;
+}
+
+footer h5{
+  text-align: center;
+  padding-top: 15px;
+}
